@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body{
+background-image: url("Airplane1.jpg"); background-repeat: no-repeat; background-size: cover;}
+</style>
+</head>
+<body>
+<nav >
+<div align="center">
+                    <!-- <---this is the select option--->
+<h1></span>Book Now <span></h1>
+                     <h2><span>Source</span></h2>
+                    <select name="Cities" id="Cities" required>
+                        <option value=""><---Select Cities---></option>
+                        <option value=""> Jammalamadugu</option>
+                        <option value=""> Pulivendula</option>
+                        <option value=""> Tadipatri</option>
+                        <option value=""> Rapthadu</option>
+
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+<div align="center">
+                    <!-- <---this is the select option--->
+                    <h1><span>Destination</span></h1>
+                    <select name="Cities" id="Cities" required>
+                        <option value=""><---Select Cities---></option>
+                        <option value=""> Anantapur</option>
+                        <option value=""> Kadapa</option>
+                        <option value=""> Kurnool</option>
+                        <option value=""> Chittoor</option>
+
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+</nav><br/>
+    <div class="form">
+        <div class="form-text" align="center">
+            <h1><span><img src="art-1.png" alt=""><img src="art-1.png" alt=""></span></h1>
+        </div>
+        <div class="main-form" align="center">
+            <form action="index.php" method="get">
+		<div>
+                    <span>Departure time </span>
+                    <input type="text" name="enter time" id="time" placeholder=" enter Time" required>
+                </div><br/>
+		<div>
+                    <span>Arrival time </span>
+                    <input type="text" name="enter time" id="time" placeholder="Enter time" required>
+                </div><br/>
+                <div>
+                    <span> Select date </span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div><br/>
+                <div id="submit">
+                    <input type="submit" value="SUBMIT" id="submit">
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>

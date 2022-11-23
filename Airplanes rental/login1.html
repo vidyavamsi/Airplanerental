@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>login page</title>
+<style>
+body{
+background-image: url("Airplane1.jpg"); background-repeat: no-repeat; background-size: cover;}
+</style>
+</head>
+<body>
+<div class="container" align="center">
+<h1 class="label">User Login</h1>
+<form class="form" action="Airlines.html" method="post" name="form" onsubmit="return validated()" >
+<table>
+<tr>
+<td><label class="font" for="email">EMAIL:</label></td>
+<td><input	class="sub"	autocomplete="off"	type="email"	name="email"><div id="email_error">Enter your email</div></td>
+</tr>
+<tr>
+<td><label class="font" for="password">PASSWORD:</label></td>
+<td><br><input	class="sub" type="password" name="passwordd"><div id="pass_error">Enter your password</div></td>
+</tr>
+</table>
+<button type="submit" value="submit" <a href="Airlines.html">SUBMIT</a></button>
+<p>don't have an account? <a href="register1.html">create now</a></p>
+</form>
+</div>
+<script src="validation.js"></script>
+</body>
+</html>
